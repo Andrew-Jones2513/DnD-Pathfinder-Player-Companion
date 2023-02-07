@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\drewj\\.nuget\\packages\\": {}
+    "C:\\Users\\soanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drewj\\Documents\\GitHub\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\PlayerCompanion.csproj",
+      "projectUniqueName": "C:\\Users\\soanh\\Desktop\\Programing\\Programs\\Projects\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\PlayerCompanion.csproj",
       "projectName": "PlayerCompanion",
-      "projectPath": "C:\\Users\\drewj\\Documents\\GitHub\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\PlayerCompanion.csproj",
-      "packagesPath": "C:\\Users\\drewj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drewj\\Documents\\GitHub\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\obj\\",
+      "projectPath": "C:\\Users\\soanh\\Desktop\\Programing\\Programs\\Projects\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\PlayerCompanion.csproj",
+      "packagesPath": "C:\\Users\\soanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\soanh\\Desktop\\Programing\\Programs\\Projects\\DnD-Pathfinder-Player-Companion\\PlayerCompanion\\PlayerCompanion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\drewj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\soanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
