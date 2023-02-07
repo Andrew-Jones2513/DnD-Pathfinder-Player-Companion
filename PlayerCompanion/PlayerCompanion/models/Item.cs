@@ -102,6 +102,7 @@ namespace PlayerCompanion.models
         //Methods
         public string getDmgType()
         {
+            // Converts the damage type to a string
             string type = "";
             switch (this.dmgType)
             {
@@ -134,17 +135,21 @@ namespace PlayerCompanion.models
             }
             return type;
         }
+
         public string getAttack()
         {
+            // Returns a string representing the damage of the weapon
             return $"{this.dmgNum}d{this.dmgDie}";
         }
         public int attack(int bonus, int target)
         {
+            // Simulates the attack with a given weapon, potentially move this to the Character class
             Random randy = new Random();
             return (randy.Next(20) + 1 + bonus + this.quality);
         }
         public int[] dealDamage()
         {
+            // Simulates the dice roll of a weapon, does not return the actual total damage delt
             Random randy = new Random();
             int[] rolls = new int[dmgNum];
             for (int i = 0; i < this.dmgNum; i++) { rolls[i] = randy.Next(dmgDie) + 1; }
@@ -204,10 +209,13 @@ namespace PlayerCompanion.models
         //Methods
         public int getAC(int dex, int bonus, bool hasShield)
         {
+            // Returns the adjusted Armor Class of a character based on the armor, bonus, and if they
+            // have a shield, possibly move to the Character class
             return (this.armorClass + Math.Min(dex, this.dexMax) + bonus + (hasShield ? 2 : 0));
         }
         public string getArmorType()
         {
+            // Returns a string representing the armor class
             string type = "";
             switch (this.ArmorType)
             {
@@ -222,6 +230,7 @@ namespace PlayerCompanion.models
         }
         public bool strMatch(int strBonus)
         {
+            // Checks to see if the character has the required strength to equip the armor
             return strRequirement <= strBonus;
         }
     }
