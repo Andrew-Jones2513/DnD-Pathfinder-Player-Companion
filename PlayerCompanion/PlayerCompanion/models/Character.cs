@@ -75,7 +75,50 @@ namespace PlayerCompanion.models
     
     */
 
-    internal class Character
+    /*
+    Functions:
+        Long Rest
+        Short Rest
+        Attack
+        Skill Check
+        Take damage
+        
+    */
+
+    abstract internal class Character
     {
+        private string name;
+        private int level;
+        private int race;
+        private string alignment;
+        private int exp;
+
+        private int maxHealth;
+        private int hitDie;
+        private int numHitDie;
+
+        private int proficiencyBonus;
+        private int speed;
+        private int armorClass;
+
+        private int strScore;
+        private int dexScore;
+        private int conScore;
+        private int intScore;
+        private int wisScore;
+        private int chaScore;
+
+        private bool[] skillProficiencies;
+        private bool[] saveProficiencies;
+        private string[] weaponProficiencies;
+        private string[] armorProficiencies;
+        private string[] mscProficiencies;
+
+        public Character (string name, int race, int archetype, string alignment, 
+            int strScore, int dexScore, int conScore, int intScore, int wisScore, int chaScore,
+            bool[] skillProficiencies, bool[] saveProficiencies, string[] weaponProficiencies, string[] armorProficiencies, string[] mscProperties)
+        {
+
+        }
     }
 }
